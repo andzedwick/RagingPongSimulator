@@ -460,8 +460,8 @@ public class Game extends JPanel implements MouseMotionListener, KeyListener{
 					aiOnly = false;
 				
 				Game.this.pointsToWin = pointsToWinSlider.getValue();
-				ball.setMaxSpeed(speedSlider.getValue());
 				newGame(difficulty);
+				ball.setMaxSpeed(speedSlider.getValue());
 				closeOptions();
 			}
 		});
